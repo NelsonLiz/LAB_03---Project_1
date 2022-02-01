@@ -1,0 +1,50 @@
+#NavigationBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons div {
+    height: 200px;
+    width: 200px;
+}
+
+#logo {
+    justify-content: end;
+    flex: 5;
+}
+
+#Home {
+    color: white;
+    background-color: #25c389;
+}
+
+#Pages {
+    color: white;
+    background-color: #ffb901;
+}
+
+#Blog {
+    color: white;
+    background-color: #de6262;
+}
+
+#Portfolio {
+    color: white;
+    background-color: #1691bd;
+}
+
+#Email {
+    color: white;
+    background-color: #166ba2;
+}
+
+.applications-content-box {
+    display: flex;
+    flex-direction: row;
+}
