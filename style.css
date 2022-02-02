@@ -71,7 +71,13 @@
     height: 300px;
 }
 
+.demobox{
+    display: flex;
+    flex-direction: row;
+}
+
 .demoleft{
+    margin-left: 400px;
     width: 400px;
     height: 300px;
 }
@@ -109,5 +115,49 @@
 }
 
 .samplemenu{
-    display: flex;
+    border:1px solid #dddddd;
+    margin-top: 3px;
+    height: 23px;
+    width: 400px;
+}
+
+.samplemenu .button {
+    float: right;
+    background-color: white;
+    color: #a7a7a7;
+}
+
+.demoright{
+    margin-left: 300px;
+
+}
+
+.demoright .tab1{
+    display:inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.demoright .tab2{
+    display:inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.demoright .tab3{
+    display:inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
 }
