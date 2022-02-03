@@ -1,23 +1,70 @@
+body {
+    font-family: ubuntu;
+}
+
 #NavigationBar {
     display: flex;
     flex-direction: row;
 }
 
-.buttons {
-    flex: 5;
-    display: flex;
-    flex-direction: row;
+#NavigationBar img {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#NavigationBar p{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#slider img {
+    width: 100%;
+}
+
+.imgText1 {
+    position: absolute;
+    bottom: 550px;
+    left: 150px;
+    background-color: white;
+    padding: 10px;
+}
+
+.imgText2 {
+    position: absolute;
+    bottom: 500px;
+    left: 150px;
+    background-color: white;
+    padding: 10px;
+}
+
+.imgText3 {
+    position: absolute;
+    bottom: 450px;
+    left: 150px;
+    background-color: white;
+    padding: 10px;
 }
 
 .buttons div {
-    height: 200px;
-    width: 200px;
+    height: 115px;
+    width: 135px;
 }
 
-#logo {
-    justify-content: end;
-    flex: 5;
+.buttons {
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+
+#logo {
+    justify-content: center;
+    flex: 2;
+}
+
 
 #Home {
     color: white;
@@ -45,6 +92,116 @@
 }
 
 .applications-content-box {
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
+}
+
+.applications-content-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.applications-content-box div p {
+    color: grey;
+}
+
+
+#blog {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#blog img {
+    margin: 15px;
+}
+
+#LatestProjects {
+    display: flex;
+    flex-direction: row;
+}
+
+.applications-content-box div {
+    padding: 70px;
+}
+
+div div .webSolutions {
+    padding-left: 200px;
+}
+
+div div .webDesign {
+    padding-right: 200px;
+}
+
+.whatsupText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thingsthatText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heyguysText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog1 #data {
+    padding: 10px;
+    width: 60px;
+    background-color: #d8605f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -761px;
+    left: 253px;
+}
+
+.blog2 #data {
+    padding: 10px;
+    width: 60px;
+    background-color: #d8605f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -761px;
+    left: 650px;
+}
+
+.blog3 #data {
+    padding: 10px;
+    width: 60px;
+    background-color: #d8605f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -761px;
+    left: 1045px;
+}
+
+.photoFooter {
+    background-color: #19b2de;
+    align-items: center;
+    position: absolute;
+    bottom: -980px;
+    left: 253px;
+    width: 366px;
+    height: 70px;
+    color: white;
 }
