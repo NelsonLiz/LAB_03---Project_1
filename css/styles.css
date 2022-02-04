@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style: none;
+}
+.footer{
+    background-color: #16242f;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+#header {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    margin: auto;
+}
+
+.imgminions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding: 0 16px;
+}
+
+button{
+    position: absolute;
+    background-color: yellow;
+    height: 40px;
+    width: 70px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 3s;
+    background-color: #16242f;
+}
+
+.bottomcolours {
+    display: flex;
+    align-content: flex-end;
+}
+
+.social_icons > img {
+    width: 32px;
+    margin: 8px;
+}
+
+
+.personimage{
+    margin: 1.5em;
+}
+
+.blue{
+    color: lightskyblue;
+}
+
+.twitter {
+    width: 35px;
+    filter:invert(1);
+  }
+
+.longline{
+    border-bottom: 2px solid #168db7;
+    width: 200em;
+    margin-top:1em;
+    margin-bottom:1em; 
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 220px;
+}
+
+.lineone{
+    border-bottom: 3px solid #21c183;
+    margin: 8px;
+}
+
+.linetwo{
+    border-bottom: 2px solid #f8ba0d;
+    margin: 8px;
+}
+
+.linethree{
+    border-bottom: 2px solid #de6262;
+    margin: 8px;
+}
+
+.linefour{
+    border-bottom: 2px solid #1bade6;
+    margin: 8px;
+}
+
+.twitter{
+    margin: 8px;
+}
+
+.name {
+    margin: 20px;
+}
