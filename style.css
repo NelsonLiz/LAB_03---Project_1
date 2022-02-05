@@ -1,54 +1,3 @@
-#NavigationBar {
-    display: flex;
-    flex-direction: row;
-}
-
-.buttons {
-    flex: 5;
-    display: flex;
-    flex-direction: row;
-}
-
-.buttons div {
-    height: 200px;
-    width: 200px;
-}
-
-#logo {
-    justify-content: end;
-    flex: 5;
-}
-
-#Home {
-    color: white;
-    background-color: #25c389;
-}
-
-#Pages {
-    color: white;
-    background-color: #ffb901;
-}
-
-#Blog {
-    color: white;
-    background-color: #de6262;
-}
-
-#Portfolio {
-    color: white;
-    background-color: #1691bd;
-}
-
-#Email {
-    color: white;
-    background-color: #166ba2;
-}
-
-.applications-content-box {
-    display: flex;
-    flex-direction: row;
-}
-
 .demo{
     display: flex;
     flex-direction: column;
@@ -56,7 +5,7 @@
 }
 
 .clients{
-    margin:0 auto;
+    margin-left:700px;
     width: 1300px;
 }
 
@@ -146,7 +95,7 @@
     display:inline-block;
     width: 60px;
     height: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(206, 206, 206);
     border-top: 1px solid #000000;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
@@ -156,8 +105,22 @@
     display:inline-block;
     width: 60px;
     height: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(206, 206, 206);
     border-top: 1px solid #000000;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
+}
+
+.demoright{
+    width: 600px;
+}
+
+.demoright .text{
+    border: 1px solid #000000;
+}
+
+.demoright .text .one{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
 }
