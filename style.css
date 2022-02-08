@@ -2,6 +2,10 @@ body {
     font-family: ubuntu;
 }
 
+.metrolics {
+    color: #50bbe3;
+}
+
 #NavigationBar {
     display: flex;
     flex-direction: row;
@@ -21,6 +25,27 @@ body {
 
 #slider img {
     width: 100%;
+}
+
+.blog1 {
+    width: 40vh;
+    height: 30vh;
+    background-image: url("images/djTool.png");
+    margin: 10px
+}
+
+.blog2 {
+    width: 40vh;
+    height: 30vh;
+    background-image: url("images/djTool.png");
+    margin: 10px
+}
+
+.blog3 {
+    width: 40vh;
+    height: 30vh;
+    background-image: url("images/djTool.png");
+    margin: 10px
 }
 
 .imgText1 {
@@ -122,7 +147,7 @@ body {
 
 #LatestProjects {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .applications-content-box div {
@@ -164,9 +189,6 @@ div div .webDesign {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    bottom: -761px;
-    left: 253px;
 }
 
 .blog2 #data {
@@ -177,9 +199,7 @@ div div .webDesign {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    bottom: -761px;
-    left: 650px;
+
 }
 
 .blog3 #data {
@@ -189,19 +209,49 @@ div div .webDesign {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: -761px;
-    left: 1045px;
 }
 
 .photoFooter {
     background-color: #19b2de;
-    align-items: center;
-    position: absolute;
-    bottom: -980px;
-    left: 253px;
-    width: 366px;
     height: 70px;
     color: white;
+    margin-top: 160px;
+}
+
+h5 {
+    font-size: large;
+    margin: 25px;
+}
+
+h6 {
+    margin: 25px;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #blog {
+        flex-wrap: wrap;
+    }
+
+    #LatestProjects {
+        flex-wrap: wrap;
+    }
+
+    .applications-content-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .applications-content-box {
+        flex-wrap: wrap;
+    }
+    .buttons {
+        display: none;
+    }
+    #blog {
+        flex-wrap: wrap;
+    }
+    #LatestProjects {
+        flex-wrap: wrap;
+    }
 }
